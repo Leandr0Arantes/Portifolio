@@ -1,8 +1,42 @@
-body{
+/* Geral */
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
     background-color: wheat;
 }
 
-h1{
+/* inicio */
+
+h1 {
     color: azure;
     text-shadow: 1px 1px 3px black;
+}
+
+hr {
+    color: black;
+}
+
+.minha-foto {
+    border-radius: 20px;
+    box-shadow: 10px 10px 1px coral;
+}
+
+p {
+    font-size: 15px;
+}
+
+p span {
+    color: coral;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+p abbr {
+    text-decoration: none;
 }

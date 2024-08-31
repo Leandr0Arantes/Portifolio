@@ -9,6 +9,7 @@ html{
 }
 body {
     background-color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* inicio */
@@ -39,4 +40,13 @@ p span {
 
 p abbr {
     text-decoration: none;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    background-color:  black;
+    color: white;
 }

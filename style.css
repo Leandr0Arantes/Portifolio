@@ -40,6 +40,14 @@ header {
 .nav-links ul {
     list-style: none;
     display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-links ul li{
+    height: 100%;
+    width: 100%;
+    display: flex;
 }
 
 .nav-links ul li a {
@@ -47,7 +55,16 @@ header {
     font-weight: bold;
     font-size: 20px;
     color: white;
-    padding: 0px 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links ul li a :hover{
+    background-color: gray;
+    transition: 1s;
 }
 
 

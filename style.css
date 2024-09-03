@@ -1,52 +1,61 @@
 /* Geral */
-html{
+html {
     scroll-behavior: smooth;
 }
-*{
+
+* {
     margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
 }
+
 body {
-    background-color: wheat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* inicio */
-
-h1 {
-    color: azure;
-    text-shadow: 1px 1px 3px black;
+/* Header */
+header {
+    background-color: rgb(20, 20, 20);
+    height: 3em;
+    display: flex;
 }
-
-hr {
-    color: black;
-}
-
-.minha-foto {
-    border-radius: 20px;
-    box-shadow: 10px 10px 1px coral;
-}
-
-p {
-    font-size: 15px;
-}
-
-p span {
-    color: coral;
+.icon{
+    color: white;
     font-weight: bold;
-    text-shadow: 1px 1px 1px black;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.icon p{
+    padding: 0px 10px;
 }
 
-p abbr {
-    text-decoration: none;
+.nav-links {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
 }
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 0px 10px;
+}
+
 
 /* Footer */
-footer{
+footer {
     width: 100%;
     text-align: center;
     padding: 1em;
-    background-color:  black;
+    background-color: black;
     color: white;
 }

@@ -51,6 +51,7 @@ header {
 }
 
 .nav-links ul li a {
+    background-color: transparent;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
@@ -62,9 +63,30 @@ header {
     align-items: center;
 }
 
-.nav-links ul li a :hover{
-    background-color: gray;
+.nav-links ul li :hover{
+    background-color: rgb(62, 62, 62);
     transition: 1s;
+}
+/* Conteúdo */
+
+/* Inicio */
+.inicio{
+    height: 25em;
+    display: flex;
+}
+.inicio-foto{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.minha-foto{
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px black;
+}
+.inicio-conteudo{
+    background-color: blue;
 }
 
 

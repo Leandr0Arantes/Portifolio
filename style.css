@@ -4,7 +4,7 @@ html {
 }
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -17,6 +17,8 @@ header {
     background-color: rgb(20, 20, 20);
     height: 3em;
     display: flex;
+    justify-content: space-between;
+    padding: 1em;             
 }
 .icon{
     color: white;
@@ -24,7 +26,6 @@ header {
     font-size: 30px;
     display: flex;
     align-items: center;
-    margin-left: 15px;
 }
 .icon p{
     padding: 0px 10px;
@@ -33,20 +34,16 @@ header {
 .nav-links {
     display: flex;
     align-items: center;
-    width: 80%;
-    justify-content: space-between;
 }
 
 .nav-links ul {
     list-style: none;
     display: flex;
-    height: 100%;
-    width: 100%;
+    gap: 5em;
 }
 
 .nav-links ul li{
     height: 100%;
-    width: 100%;
     display: flex;
 }
 
@@ -57,7 +54,6 @@ header {
     font-size: 20px;
     color: white;
     height: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,67 +1,59 @@
 /* Geral */
-html {
+html{
     scroll-behavior: smooth;
 }
 
-* {
+html *{
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Header */
-header {
-    background-color: rgb(20, 20, 20);
-    height: 3em;
+header{
+    background-color: black;
     display: flex;
     justify-content: space-between;
-    padding: 1em;             
+    padding: 0em 1em;
 }
-.icon{
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
+
+header .icon{
     display: flex;
+    color: white;
     align-items: center;
 }
-.icon p{
+
+header .icon i{
+    font-size: 24px;
     padding: 0px 10px;
 }
 
-.nav-links {
-    display: flex;
-    align-items: center;
+header .icon p{
+    
 }
 
-.nav-links ul {
+header .links{}
+
+header .links ul{
+    display: flex;
     list-style: none;
-    display: flex;
-    gap: 5em;
-}
-
-.nav-links ul li{
-    height: 100%;
-    display: flex;
-}
-
-.nav-links ul li a {
-    background-color: transparent;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.nav-links ul li :hover{
-    background-color: rgb(62, 62, 62);
-    transition: 1s;
+header .links ul li{
+    padding: 0.7em 1em;
+}
+
+header .links ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header .links ul li a:hover{
+    color: green;
 }
 /* Conteúdo */
 
